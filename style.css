@@ -335,8 +335,17 @@ margin-bottom: 2rem;
 
     @media only screen and (max-width:400px) {
 
+        header {
+            min-height: 30vh;
+            padding: 3rem;
+      }
+        
+        .header_text {
+            max-width: 80vw;
+        }
+
         header h1 {
-    
+            max-width: 80vw;
             font-size: 2rem;
             margin-bottom: 1rem ;
          }
@@ -346,6 +355,7 @@ margin-bottom: 2rem;
          }
       
          .projects_intro {
+            min-height: 30vh;
             padding: 2rem;
             
         }
@@ -353,4 +363,16 @@ margin-bottom: 2rem;
         font-size: 1.5rem;
             
         }
+
+        #summary {
+            padding: 3rem;
+         }
+         
+         #summary h2 {
+            max-width: 70vw;
+         }
+         #summary p {
+            max-width: 70vw;
+         }
+
         } 
